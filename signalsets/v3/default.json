@@ -152,6 +152,14 @@
     {"id": "VELOSTER_KNOCK_LEARN_2",  "path": "Engine", "fmt": {"bix": 168, "len": 8, "max": 50, "min": -50, "div": 5, "sign": true, "unit": "degrees" }, "name": "Knock Learn Cyl 2"},
     {"id": "VELOSTER_KNOCK_LEARN_3",  "path": "Engine", "fmt": {"bix": 176, "len": 8, "max": 50, "min": -50, "div": 5, "sign": true, "unit": "degrees" }, "name": "Knock Learn Cyl 3"},
     {"id": "VELOSTER_KNOCK_LEARN_4",  "path": "Engine", "fmt": {"bix": 184, "len": 8, "max": 50, "min": -50, "div": 5, "sign": true, "unit": "degrees" }, "name": "Knock Learn Cyl 4"}
+  ]},
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "E021"}, "freq": 5,
+  "signals": [
+    {"id": "VELOSTER_TURBO_BOOST",   "path": "Engine", "fmt": {"bix": 64, "len": 8, "max": 255, "div": 0.3,                     "unit": "kilopascal"}, "name": "[ECM] Turbo Boost Pressure"},
+    {"id": "VELOSTER_WG_VOLTAGE",    "path": "Engine", "fmt": {"bix": 400, "len": 8, "max": 255, "div": 64,                      "unit": "volts"},      "name": "[ECM] Waste Gate Voltage"},
+    {"id": "VELOSTER_WG_DUTY",       "path": "Engine", "fmt": {"bix": 416, "len": 8, "max": 255, "div": 1.6,                     "unit": "percent"},    "name": "[ECM] Waste Gate Duty"},
+    {"id": "VELOSTER_WG_POSITION",   "path": "Engine", "fmt": {"bix": 432, "len": 8, "max": 255, "div": 0.35,                    "unit": "percent"},    "name": "[ECM] Waste Gate Position"},
+    {"id": "VELOSTER_WG_SETPOINT",   "path": "Engine", "fmt": {"bix": 448, "len": 8, "max": 255, "div": 1.01,                    "unit": "percent"},    "name": "[ECM] Waste Gate Setpoint"}
   ]}
 ]
 }
