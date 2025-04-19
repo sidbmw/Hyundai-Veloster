@@ -86,7 +86,7 @@
   ]},
 { "hdr": "7DF", "rax": "7E8", "cmd": {"01": "0B"}, "freq": 10,
   "signals": [
-    {"id": "VELOSTER_SAE_MAP", "path": "Engine", "fmt": { "len": 8, "max": 255, "unit": "kilopascal" }, "name": "SAE Manifold Absolute Pressure"}
+    {"id": "VELOSTER_SAE_MAP", "path": "Engine", "fmt": { "len": 8, "max": 255, "add": -40, "unit": "kilopascal" }, "name": "SAE Manifold Absolute Pressure"}
   ]},
 { "hdr": "7DF", "rax": "7E8", "cmd": {"01": "0C"}, "freq": 10,
   "signals": [
